@@ -1,0 +1,24 @@
+{
+    "name": "davegthemighty/astro",
+    "authors": [
+        {
+            "name": "DavegTheMighty",
+            "email": "dave@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+      "psr-4": {
+        "DavegTheMighty\\Astro\\": "src/"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DavegTheMighty\\Astro\\Test\\": "tests/"
+        }
+    }
+}
